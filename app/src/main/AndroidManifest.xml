@@ -2,16 +2,25 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.gameapp">
 
-    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
 
     <application
+        android:name=".Arrowpay"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/AppTheme">
-        <activity android:name=".DashboardActivity"></activity>
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true">
+        <activity android:name=".activites.AllRandomActivity"></activity>
+        <activity android:name=".activites.TrendingActivity" />
+        <activity android:name=".activites.SecondDetailsActivity" />
+        <activity android:name=".activites.TwoCatogaryActivity" />
+        <activity android:name=".activites.OneDetailsActivity" />
+        <activity android:name=".activites.OneCatogaryActivity" />
+        <activity android:name=".activites.DashboardActivity" />
         <activity android:name=".activites.SplashActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

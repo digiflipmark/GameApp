@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">GameApp</string>
+    <string name="label_download">New update available so please download it from play store\n or \nUnistall app and download again from the play store.</string>
 </resources>

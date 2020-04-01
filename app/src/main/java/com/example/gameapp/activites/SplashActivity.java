@@ -7,7 +7,6 @@ import android.os.Handler;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.databinding.DataBindingUtil;
 
-import com.example.gameapp.DashboardActivity;
 import com.example.gameapp.R;
 import com.example.gameapp.databinding.ActivitySplashBinding;
 
